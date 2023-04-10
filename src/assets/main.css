@@ -1,3 +1,121 @@
+@import './normalize.css';
 @import './base.css';
 
 
+/*==================== REUSABLE CSS CLASSES ====================*/
+.section {
+padding: 2rem 0 4rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.section__title, 
+.section__subtitle {
+  text-align: center;
+}
+
+/*==================== LAYOUT ====================*/
+.container {
+  max-width: 768px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--body-color);
+}
+
+/*==================== NAV ====================*/
+
+
+
+/* show menu */
+
+
+/* Active link */
+
+
+/* Change background header */
+
+
+/*==================== HOME ====================*/
+
+
+/*==================== BUTTONS ====================*/
+
+
+/*==================== ABOUT ====================*/
+
+
+/*==================== SKILLS ====================*/
+
+
+/*==================== QUALIFICATION ====================*/
+
+
+/*==================== SERVICES ====================*/
+
+
+/* Active Modal */
+
+
+/*==================== PORTFOLIO ====================*/
+
+
+/*==================== PROJECT IN MIND ====================*/
+
+
+/*==================== TESTIMONIAL ====================*/
+
+
+/*==================== CONTACT ME ====================*/
+
+
+/*==================== FOOTER ====================*/
+
+
+/*========== SCROLL UP ==========*/
+
+
+/* Show scroll */
+
+
+/*========== SCROLL BAR ==========*/
+
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */
+
+body{
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+h1{
+  color: var(--title-color);
+}
