@@ -72,7 +72,7 @@ padding: 2rem 0 4rem;
 @media screen and (max-width:767px){
   .nav__menu{
     position: fixed;
-    bottom: 0;
+    bottom: -100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -81,11 +81,49 @@ padding: 2rem 0 4rem;
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s; 
   }
-   
 }
+
+.nav__list{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav__link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__link:hover{
+  color: var(--second-color);
+}
+
+.nav__icon{
+  font-size: 1.7rem;
+}
+
+.nav__close{
+  position: absolute;
+  right: 1.3rem;
+  bottom: .5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--first-color);
+}
+
+.nav__close:hover{
+  color: var(--second-color);
+}
+
 
 /* show menu */
 
+.nav__active{
+  bottom: 0;
+}
 
 /* Active link */
 
