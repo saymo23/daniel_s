@@ -12,7 +12,7 @@
   --first-color-alt:       hsl(var(--hue-color-first), 57%, 32%);
   --first-color-lighter:   hsl(var(--hue-color-first), 92%, 85%);
   --second-color:          hsl(var(--hue-color-second), 90%, 52%);
-  --second-color-alt:      hsl(var(--hue-color-second), 57%, 32%);
+  --second-color-alt:      hsl(var(--hue-color-second), 67%, 52%);
   --second-color-lighter:  hsl(var(--hue-color-second), 92%, 85%);
 
   --title-color: hsl(var(--hue-color-first), 8%, 15%);
@@ -92,6 +92,7 @@ body {
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
+  margin-bottom: .25rem;
 }
 
 ul {

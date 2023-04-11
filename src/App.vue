@@ -1,20 +1,20 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="" class="nav__logo"> Daniel </a><!-- /.nav__logo -->
+      <a href="" class="nav__logo"> Daniel Santarriaga </a><!-- /.nav__logo -->
 
       <div class="nav__menu" :class="{'nav__active': isNavMenuActive}" id="nav-menu">
         <ul class="nav__list grid">
           <li class="nav__item" v-for="i in menu" v-bind:key="i.url">
-            <a href="#" class="nav__link">
+            <a href="#" class="nav__link" @click="goNext()">
               <i class="uil nav__icon" :class="i.icon"></i> {{ i.title }}
             </a><!-- /.nav__link -->
           </li><!-- /.nav__item -->
-          <i class="uil uil-times nav__close" id="nav-close" @click="toogle_menu()"></i>
+          <i class="uil uil-times nav__close" id="nav-close" @click="toggle_menu()"></i>
         </ul><!-- /.nav__list grid -->
       </div><!-- /#nav-menu.nav__menu -->
       <div class="nav__btns">
-        <div class="nav__toggle" id="nav-toggle" @click="toogle_menu()">
+        <div class="nav__toggle" id="nav-toggle" @click="toggle_menu()">
           <i class="uil uil-apps "></i>
         </div><!-- /#nav-toggle.nav__toggle -->
       </div><!-- /.nav__btns -->
@@ -24,7 +24,8 @@
   <main class="main">
     <!--==================== HOME ====================-->
     <section class="home section" id="home">
-        
+      <Home/>
+      
     </section>
 
     <!--==================== ABOUT ====================-->
@@ -76,6 +77,7 @@
 </template>
 
 <script setup>
+import Home from "./components/Home.vue";
 import { ref } from 'vue'
 
 let isNavMenuActive = ref(false);
@@ -113,9 +115,12 @@ const menu = [
   },
 ]
 
-const toogle_menu = () => {
-  console.log('ssssssss', isNavMenuActive);
+const toggle_menu = () => {
   isNavMenuActive.value = !isNavMenuActive.value;
+}
+
+const goNext = () => {
+  toggle_menu();
 }
 
 </script>
