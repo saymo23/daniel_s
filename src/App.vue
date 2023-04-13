@@ -25,13 +25,13 @@
     <!--==================== HOME ====================-->
     <section class="home section" id="home">
       <Home/>
-      
     </section>
 
     <!--==================== ABOUT ====================-->
     <section class="about section" id="about">
-        
+      <About />
     </section>
+    
 
     <!--==================== SKILLS ====================-->
     <section class="skills section" id="skills">
@@ -78,6 +78,7 @@
 
 <script setup>
 import Home from "./components/Home.vue";
+import About from "./components/About.vue";
 import { ref } from 'vue'
 
 let isNavMenuActive = ref(false);
