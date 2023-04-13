@@ -18,7 +18,7 @@
           High level experience in web development and mobile applications.
         </p><!-- /.home__description -->
         <a href="#contact" class="button button--flex">
-          Contact Me <i class="uil uil-message"></i>
+          Contact Me  <i class="uil uil-message button__icon"></i>
         </a><!-- /.button button--flex -->
       </div><!-- /.home__data -->
     </div><!-- /.home__content grid -->

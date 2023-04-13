@@ -98,7 +98,7 @@ padding: 2rem 0 4rem;
 }
 
 .nav__link:hover{
-  color: var(--second-color);
+  color: var(--first-color);
 }
 
 .nav__icon{
@@ -115,7 +115,7 @@ padding: 2rem 0 4rem;
 }
 
 .nav__close:hover{
-  color: var(--second-color);
+  color: var(--first-color);
 }
 
 
@@ -151,12 +151,12 @@ padding: 2rem 0 4rem;
 
 .home__social-icon{
   font-size: 1.8rem;
-  color: var(--second-color);
+  color: var(--first-color);
 
 }
 .home__blob{
   width: 200px;
-  fill: var(--second-color);
+  fill: var(--first-color);
 }
 .home__blob-img{
   width: 190px;
@@ -219,7 +219,7 @@ padding: 2rem 0 4rem;
 }
 
 .button:hover{
-  background-color: var(--second-color-alt);
+  background-color: var(--first-color-alt);
 }
 
 .button__icon{
