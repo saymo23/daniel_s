@@ -35,7 +35,7 @@
 
     <!--==================== SKILLS ====================-->
     <section class="skills section" id="skills">
-
+      <Skills />
     </section>
 
     <!--==================== QUALIFICATION ====================-->
@@ -79,6 +79,8 @@
 <script setup>
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+
 import { ref } from 'vue'
 
 let isNavMenuActive = ref(false);

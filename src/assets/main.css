@@ -271,6 +271,85 @@ padding: 2rem 0 4rem;
 
 /*==================== SKILLS ====================*/
 
+.skills__container{
+  row-gap: 0;
+}
+.skills__content{
+  margin-bottom: var(--mb-2-5);
+}
+.skills__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__text{
+  flex-grow: 1;
+}
+
+.skills__icon,
+.skills__arrow{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__icon{
+  margin-right: var(--mb-0-75);
+}
+
+.skills__title{
+  font-size: var(--h3-font-size);
+}
+
+.skills__subtitle{
+  font-size: var(--samll-font-size);
+  color: var(--text-color);
+}
+
+.skill__arrow{
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills__titles{
+  
+  margin-bottom: var(--mb-0-5);
+}
+
+.skills__name{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.skills__close .skills__list{
+  height: 0;
+  overflow: hidden;
+  transition: height .4s;
+}
+
+.skills__list{
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+  transition: height .4s;
+  
+}
+.skill__list .skills__arrow{
+  transform: rotate(0deg);
+}
+
+.skills__close .skills__arrow{
+  transform: rotate(-180deg);
+}
+
+.height-transition {
+  height: 0;
+  transition: height 1s;
+}
+.height-transition.open {
+  height: max-content;
+}
 
 /*==================== QUALIFICATION ====================*/
 
