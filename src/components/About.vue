@@ -6,7 +6,7 @@
       Hello
     </span><!-- /.section__suctitle -->
     <div class="about__container container grid">
-      <img src="assets/img/about.jpg" alt="About" />
+      <!-- <img src="assets/img/about.jpg" alt="About" /> -->
       <div class="about__data">
         <p class="about__description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure provident sit, consequatur maxime enim suscipit consequuntur quo pariatur, et, ducimus quod cum corporis dolores unde! Temporibus nisi error dolorem.
