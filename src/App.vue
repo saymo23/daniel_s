@@ -38,14 +38,14 @@
       <Skills />
     </section>
 
-    <!--==================== QUALIFICATION ====================-->
+    <!--==================== QUALIFICATION ====================
     <section class="qualification section">
 
-    </section>
+    </section>-->
 
     <!--==================== SERVICES ====================-->
     <section class="services section" id="services">
-        
+        <Services />
     </section>
 
     <!--==================== PORTFOLIO ====================-->
@@ -80,6 +80,7 @@
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
+import Services from "./components/Services.vue";
 
 import { ref } from 'vue'
 

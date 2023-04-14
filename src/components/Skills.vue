@@ -19,7 +19,7 @@
 <script setup>
 
 import { ref } from "vue"
-import SkillsData from "./ui/SkillsData.vue"
+
 import SkillsSection from "./ui/SkillsSection.vue";
  
 const skills_frontend = [
