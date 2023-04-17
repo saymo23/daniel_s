@@ -475,6 +475,34 @@ padding: 2rem 0 4rem;
 
 /*==================== PORTFOLIO ====================*/
 
+.portfolio__container{
+  overflow: initial;
+}
+
+.portfolio__content{
+  padding: 0 1.5rem;
+}
+
+.portfolio__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover{
+  transition: translateX(.25rem);
+}
+
+--swiper-navigation-sides-offset: 20px;
 
 /*==================== PROJECT IN MIND ====================*/
 

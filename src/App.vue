@@ -50,7 +50,7 @@
 
     <!--==================== PORTFOLIO ====================-->
     <section class="portfolio section" id="portfolio">
-        
+        <Porfolio />
     </section>
 
     <!--==================== PROJECT IN MIND ====================-->
@@ -77,12 +77,14 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
 import Skills from "./components/Skills.vue";
 import Services from "./components/Services.vue";
+import Porfolio from "./components/Porfolio.vue";
 
-import { ref } from 'vue'
 
 let isNavMenuActive = ref(false);
 

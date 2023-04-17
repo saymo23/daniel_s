@@ -50,6 +50,9 @@
 
   --container-color: #fff;
 
+  /* Swiper Manual Configurations */
+  --swiper-navigation-sides-offset: -3px;
+  --swiper-navigation-color: var(--first-color);
 }
 
 
@@ -109,4 +112,28 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
