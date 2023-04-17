@@ -21,7 +21,7 @@ export default {
           title: 'Frontend <br>Developer',
           icon: 'uil-arrow',
           points: [
-            'I develop the user interface.',
+            'I develop your simple page, application or static web.',
             'Web page development.',
             'I position your company brand.'
           ]
@@ -41,7 +41,7 @@ export default {
           points: [
             'I develop your blog web page in Wordpress.',
             'Handcrafted Themes and optimized.',
-            'I develop custom plugins'
+            'I develop custom plugins.'
           ]
         }
       ]
